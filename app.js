@@ -9,7 +9,6 @@ const save = document.getElementById('save-game');
 
 let stats = [];
 let games = [];
-let totalPoints = [];
 
 // IMPURE RENDER FUNCTIONS
 // YOUR CODE MUST CALL THESE FUNCTIONS
