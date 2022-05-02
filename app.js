@@ -48,6 +48,7 @@ form.addEventListener('submit', (e) => {
     // Hint -- create the object from the form, push it onto the stats array, then call renderStats
     stats.push(player);
     renderStats();
+    form.reset();
 });
 
 remove.addEventListener('click', () => {
